@@ -281,6 +281,8 @@ Devise.setup do |config|
   # so you need to do it manually. For the users scope, it would be:
   # config.omniauth_path_prefix = '/my_engine/users/auth'
 
+  config.omniauth :google_oauth2, '912506501042-i0q502cqr8emrpc4gg0ncvpgofdiv9l3.apps.googleusercontent.com', 'TuiNtvtPw-v0dm9nBaw13PGk', scope: 'userinfo.email,userinfo.profile'
+
   # ==> Turbolinks configuration
   # If your app is using Turbolinks, Turbolinks::Controller needs to be included to make redirection work correctly:
   #
